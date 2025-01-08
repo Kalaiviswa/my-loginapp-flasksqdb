@@ -45,14 +45,7 @@ A simple Flask web application built with SQLAlchemy to manage a user database. 
    SECRET_KEY=your_secret_key
    ```
 
-5. **Initialize the database:**
-   ```bash
-   flask db init
-   flask db migrate
-   flask db upgrade
-   ```
-
-6. **Run the application:**
+5. **Run the application:**
    ```bash
    flask run
    ```
@@ -69,25 +62,16 @@ A simple Flask web application built with SQLAlchemy to manage a user database. 
   ```http
   POST /login
   ```
-- **User Profile Management:**
-  ```http
-  GET /profile
-  ```
+
 
 ---
 
 ## Project Structure
 ```
 project-root/
-|-- app/
-|   |-- __init__.py
-|   |-- models.py
-|   |-- routes.py
-|-- migrations/
+
 |-- templates/
-|-- static/
 |-- requirements.txt
-|-- .env
 |-- app.py
 |-- README.md
 |-- LICENSE
@@ -96,7 +80,7 @@ project-root/
 ---
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](./License.md) file for details.
 
 ---
 
